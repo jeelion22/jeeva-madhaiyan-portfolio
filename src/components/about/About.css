@@ -1,4 +1,18 @@
 
+
+
+
+.title {
+    justify-content: center;
+   
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+    
+}
+
 .introduction p {
-    font-size: 25px;
+    font-size: 18px;
+    
+    
 }

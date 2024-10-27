@@ -1,6 +1,6 @@
 .active {
     padding-bottom: 0;
     border-bottom: 1px solid black;
-    transition: 0.2s;
+    /* transition: 0.2s; */
     
 }

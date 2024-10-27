@@ -10,9 +10,9 @@ body {
 }
 
 
-.section:nth-child(1) {
+/* .section:nth-child(1) {
   background: rgb(185, 136, 150);
-}
+} */
 
 .section:nth-child(2) {
   background: rgb(192, 85, 10);
