@@ -26,7 +26,7 @@ const Navbar = () => {
 
       window.scrollTo({
         top: scrollToY,
-        behavior: "smooth",
+        // behavior: "smooth",
       });
     }
   };

@@ -1,18 +1,63 @@
 
+#about  {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
 
+
+}
 
 
 .title {
-    justify-content: center;
-   
     text-align: center;
     letter-spacing: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    color: green;
+}
+
+
+
+
+.greet {
+    text-align: center;
+ 
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+
+.profile {
+    padding: 20px;
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+ 
     
 }
 
-.introduction p {
-    font-size: 18px;
-    
-    
+.profile-picture img {
+    height: auto;
+    max-height: 320px;
+    width: auto;
+    max-width: 240px;
+    background: rgb(252, 247, 247, 0.3);
+    border-radius: 8px;
 }
+
+.introduction p {
+    opacity: 0.8;;
+}
+
+
+
+
+
+
