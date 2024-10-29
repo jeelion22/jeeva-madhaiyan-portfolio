@@ -31,15 +31,15 @@ img, .tech-stack {
     grid-row: 1;
 }
 
+
+
 .tech-stack {
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: end;
     gap: 2px;
- 
-  
- 
+
     
 }
 

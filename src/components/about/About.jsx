@@ -15,8 +15,8 @@ const About = () => {
                 Hello, <br /> My name is Jeeva Madhaiyan
               </h3>
               <p>
-                I'm a full-stack developer with a passion for building scalable
-                and responsive web applications.
+                I'm a full-stack developer with a passion for building scalable,
+                dynamic, and responsive web applications and problem solving.
               </p>
               <p>
                 I have experience with front-end tools like HTML, CSS,
@@ -25,8 +25,7 @@ const About = () => {
               </p>
               <p>
                 I enjoy learning about new tech trends and am excited to bring
-                my skills to projects in dynamic, collaborative environments and
-                real-world problems.
+                my skills to projects in dynamic, collaborative environments.
               </p>
             </div>
           </div>

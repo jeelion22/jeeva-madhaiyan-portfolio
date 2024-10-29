@@ -48,7 +48,7 @@
     max-height: 320px;
     width: auto;
     max-width: 240px;
-    background: rgb(252, 247, 247, 0.3);
+    /* background: rgb(252, 247, 247, 0.3); */
     border-radius: 8px;
 }
 
