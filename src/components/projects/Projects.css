@@ -5,7 +5,9 @@
     
 }
 
-
+.showcase-description p {
+    color: rgb(0, 0, 0, 0.7);
+}
 
 .project-container {
     display: flex;

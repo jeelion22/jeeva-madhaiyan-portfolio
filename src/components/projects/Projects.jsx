@@ -72,7 +72,7 @@ const Projects = () => {
     <section className="section" id="projects">
       <div className="container">
         <div className="row ">
-          <div className="col-md-12">
+          <div className="col-md-12 showcase-description">
             <h2 className="header">Showcases.</h2>
 
             <p>

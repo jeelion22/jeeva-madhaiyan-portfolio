@@ -16,16 +16,16 @@ const About = () => {
               </h3>
               <p>
                 I'm a full-stack developer with a passion for building scalable,
-                dynamic, and responsive web applications and problem solving.
+                dynamic, and responsive web applications and solving problems.
               </p>
               <p>
-                I have experience with front-end tools like HTML, CSS,
-                JavaScript, and React, along with back-end expertise in Node.js,
+                My experience spans front-end tools like HTML, CSS, JavaScript,
+                and React, alongside back-end technologies such as Node.js,
                 Express, and MongoDB.
               </p>
               <p>
-                I enjoy learning about new tech trends and am excited to bring
-                my skills to projects in dynamic, collaborative environments.
+                I enjoy staying updated on tech trends and am excited to bring
+                my skills to projects in collaborative and dynamic environments.
               </p>
             </div>
           </div>

@@ -1,3 +1,49 @@
+
+#skills {
+    background-color: #f0f0f0;
+}
+
 .skills-title {
     margin-top: 70px;
 }
+
+
+.icons {
+    height: 100%;
+    gap: 5px;
+}
+
+.frontend-icons, .backend-icons, .tools-icons, .database-icons {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.icon {
+   
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 0.1);
+   
+    
+    
+}
+
+
+
+.mongoose, .restful, .aws-s3, .python, .vscode {
+   img {height: 64px;
+}
+}
+
+
+.icon:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: transparent;
+   
+}
+
+.skill-description p {
+    color: rgb(0, 0,0, 0.7)
+}
+
