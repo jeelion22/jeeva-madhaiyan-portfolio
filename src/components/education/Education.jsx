@@ -15,7 +15,7 @@ const education = [
   {
     course: "batchelor of Science",
     subject: "physics",
-    year: "2012",
+    year: "2009",
   },
 ];
 
@@ -26,7 +26,7 @@ const Education = () => {
         <div className="row">
           <div className="col">
             <h2>Education</h2>
-            <table className="education">
+            {/* <table className="education">
               <tbody>
                 {education.map((edu, index) => (
                   <tr key={index}>
@@ -36,7 +36,32 @@ const Education = () => {
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </table> */}
+            <div className="education">
+              <div className="vertical-line"></div>
+              <div className="courses">
+                {education.map((edu, index) => (
+                  <div className="course">
+                    <div
+                      className={`horizontal-bubble  h-bubble${index}`}
+                    ></div>
+                    <div className={`horizontal-line h-line${index}`}></div>
+                    <div
+                      class="card"
+                      key={index}
+                      h-100
+                      style={{ width: "18rem" }}
+                    >
+                      <div class="card-body">
+                        <h5 class="card-title">{edu.course}</h5>
+                        <p class="card-text">{edu.subject}</p>
+                        <p class="card-text">{edu.year}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

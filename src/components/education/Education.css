@@ -1,14 +1,92 @@
+#education {
+    background-color: rgb(0, 0, 0);
+   
+}
+
 .education {
+    display: inline-flex;
     height: 100%;
     justify-content: center;
     align-items: center;
-    /* background-color: green; */
+   
 
     text-transform: capitalize;
     font-weight: bold;
+    
+    
 }
 
-td {
-    
-    width: 20%;
+
+
+.vertical-line {
+    width: 0.1rem;
+    height: 70vh;
+    background-color: gray;
 }
+
+
+
+
+
+
+.education .card {
+margin-left: 2rem;
+border: 1px solid gray;
+margin: 2rem;
+color: rgb(255, 255, 255, 0.8);
+
+
+}
+
+.horizontal-line {
+    position: relative;
+    top: 6rem;
+    height: 0.1rem;
+    width: 2rem;
+    background-color: gray;
+
+   
+}
+
+.horizontal-bubble {
+    border: 0.1rem solid gray;
+    position: relative;
+    top: 6.6rem;
+    left: -0.6rem;
+
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background-color:  rgb(12, 11, 11);
+    z-index: 1;
+   
+
+}
+
+.courses .card  p  {
+    color: rgb(255, 255, 255,0.5);
+}
+
+#education h2 {
+    color: rgb(14, 139, 10);
+}
+
+
+.course:hover {
+    .horizontal-bubble, .horizontal-line, .card {
+        border: 1px solid rgb(14, 139, 10);
+    }
+
+    .card {
+        color: white;
+    }
+
+    .card p {
+        color: rgb(255, 255, 255,0.7);
+    }
+
+    .horizontal-bubble {
+        box-shadow: -4px 4px 2px 1px rgb(14, 139, 10, 0.5);
+    }
+}
+
