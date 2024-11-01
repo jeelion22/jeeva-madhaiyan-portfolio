@@ -13,7 +13,7 @@ const Skills = () => {
       <div className="container">
         <div className="row">
           <h2 className="skills-title">Skills</h2>
-          <div className="col skill-description">
+          <div className="col-lg-6 col-md-12 col-sm-12 skill-description">
             {/* <p>
               Here are the frameworks and libraries I've mastered to build
               robust web applications.
@@ -35,10 +35,10 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="col icons">
+          <div className="col-lg-6 col-md-12 col-sm-12 icons ">
             <div className="frontend-technology">
               <h5>Frontend</h5>
-              <div className="frontend-icons">
+              <div className="frontend-icons flex-wrap">
                 {/* html */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -381,7 +381,7 @@ const Skills = () => {
             </div>
             <div className="backend-technology">
               <h5>Backend</h5>
-              <div className="backend-icons">
+              <div className="backend-icons flex-wrap">
                 {/* node */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -687,7 +687,7 @@ const Skills = () => {
 
             <div className="database">
               <h5>Database</h5>
-              <div className="database-icons">
+              <div className="database-icons flex-wrap">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -739,7 +739,7 @@ const Skills = () => {
 
             <div className="tools">
               <h5>Tools</h5>
-              <div className="tools-icons">
+              <div className="tools-icons flex-wrap">
                 {/* git */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

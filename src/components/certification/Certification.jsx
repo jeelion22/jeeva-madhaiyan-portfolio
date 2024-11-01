@@ -7,11 +7,11 @@ const Certification = () => {
     <section className="section" id="certifications">
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col p-2">
             <h2 className="certification-title">Certifications</h2>
             <div className="row row-cols-1 row-cols-md-4 g-2 certification-container ">
               {certifications.map((certication, index) => (
-                <div className="col-auto card-group   key={index}">
+                <div className="col-auto card-group col-md-3 " key={index}>
                   <div
                     class="card certification h-100"
                     style={{ width: "18rem" }}

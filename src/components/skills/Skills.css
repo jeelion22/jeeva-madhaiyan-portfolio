@@ -1,10 +1,19 @@
 
+
+
 #skills {
-    background-color: #f0f0f0;
+    background-color: #000000;
 }
+
+
 
 .skills-title {
     margin-top: 70px;
+    color: rgb(14, 139, 10);
+}
+
+#skills  h5 {
+    color: silver;
 }
 
 
@@ -19,10 +28,10 @@
 }
 
 .icon {
-   
+   margin: 4px;
     padding: 0.5rem;
     border-radius: 5px;
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: whitesmoke;
    
     
     
@@ -39,11 +48,11 @@
 .icon:hover {
     transform: scale(1.1);
     transition: 0.5s;
-    background-color: transparent;
+    background-color: white;
    
 }
 
 .skill-description p {
-    color: rgb(0, 0,0, 0.7)
+    color: silver
 }
 

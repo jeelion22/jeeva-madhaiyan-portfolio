@@ -1,23 +1,23 @@
 
 #certifications {
-    background-color: #EEEEEE;
+    background-color: #000000;
 }
 
 .certification-title {
-    margin-top: 70px;
+    color: rgb(14, 139, 10);
     
 }
 
 .certification.card {
     text-align: center;
-    background-color:rgb(104, 109, 118, 0.1);
+    background-color:rgb(104, 109, 118, 0.2);
     text-transform: capitalize;
     
 }
 
 .certification.card:hover {
   background-color: transparent;
-  border: 2px solid rgb(128, 128, 128, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.2);
   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
   transition: 0.2s;
   
@@ -26,7 +26,8 @@
 
 .certification .card-title {
     /* color: #808080; */
-    font-weight: bold
+    font-weight: bold;
+    color: silver
 }
 
 .certification  .card-subtitle {
@@ -38,25 +39,34 @@
 
 }
 
+.card-text {
+    color: rgb(128, 128, 128);
+}
+
 .certification .card-link {
     text-decoration: none;
     
     
-    border: 2px solid gray;
+    border: 2px solid silver;
     border-radius: 20px;
     padding: 0.4rem;
-    color: black;
+    color: gray;
    
     
 }
 
 .certification .card-link:hover {
-    background-color: gray;
-    color: white;
+    /* background-color: gray; */
+    /* color: white;
+     */
+     color: rgb(14, 139, 10);
     transition: 0.2s;
    
 }
 
 .certification-container {
     margin-top: 1.5rem;
+ 
+   
+
 }

@@ -9,14 +9,14 @@ const TechStack = ({ tech }) => {
 
 const Project = ({ project }) => {
   return (
-    <div class="card h-100">
+    <div class="card h-100" style={{}}>
       <div className="img">
         <img
           src={project.img}
           class="card-img-top"
           alt={project.name || "Project image"}
         />
-        <div className="tech-stack">
+        <div className="tech-stack flex-wrap ">
           {project.technologies.map((tech, index) => (
             <TechStack tech={tech} key={index} />
           ))}
@@ -73,14 +73,18 @@ const Projects = () => {
       <div className="container">
         <div className="row ">
           <div className="col-md-12 showcase-description">
-            <h2 className="header">Showcases.</h2>
+            <h2 className="project-header">Showcases.</h2>
 
             <p>
               These are the some highlight projects. <br /> Each page discusses
               the purpose of the project, what I learnt, and how I came up with
               solution.{" "}
             </p>
+          </div>
+        </div>
 
+        <div className="row">
+          <div className="col-md-12 col-sm-12">
             <div className="project-container">
               {projectsInfo.map((project, index) => (
                 <Project project={project} key={index} />

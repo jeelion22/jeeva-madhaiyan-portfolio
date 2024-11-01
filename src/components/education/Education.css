@@ -1,3 +1,7 @@
+.section {
+    min-height: fit-content;
+}
+
 #education {
     background-color: rgb(0, 0, 0);
    
@@ -88,5 +92,7 @@ color: rgb(255, 255, 255, 0.8);
     .horizontal-bubble {
         box-shadow: -4px 4px 2px 1px rgb(14, 139, 10, 0.5);
     }
+
+    transition: 0.3s;
 }
 

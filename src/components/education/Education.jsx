@@ -3,18 +3,18 @@ import "./Education.css";
 
 const education = [
   {
-    course: "master of philosophy",
-    subject: "Theoretical physics",
+    course: "Master of Philosophy",
+    subject: "Theoretical Physics",
     year: "2015",
   },
   {
-    course: "master of Science",
-    subject: "physics",
+    course: "Master of Science",
+    subject: "Physics",
     year: "2012",
   },
   {
-    course: "batchelor of Science",
-    subject: "physics",
+    course: "Bachelor of Science",
+    subject: "Physics",
     year: "2009",
   },
 ];
@@ -25,41 +25,27 @@ const Education = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h2>Education</h2>
-            {/* <table className="education">
-              <tbody>
-                {education.map((edu, index) => (
-                  <tr key={index}>
-                    <td>{edu.course}</td>
-                    <td>{edu.subject}</td>
-                    <td>{edu.year}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table> */}
-            <div className="education">
-              <div className="vertical-line"></div>
-              <div className="courses">
-                {education.map((edu, index) => (
-                  <div className="course">
-                    <div
-                      className={`horizontal-bubble  h-bubble${index}`}
-                    ></div>
-                    <div className={`horizontal-line h-line${index}`}></div>
-                    <div
-                      class="card"
-                      key={index}
-                      h-100
-                      style={{ width: "18rem" }}
-                    >
-                      <div class="card-body">
-                        <h5 class="card-title">{edu.course}</h5>
-                        <p class="card-text">{edu.subject}</p>
-                        <p class="card-text">{edu.year}</p>
+            <div className="edu-container">
+              <h2>Education</h2>
+              <div className="education">
+                <div className="vertical-line"></div>
+                <div className="courses">
+                  {education.map((edu, index) => (
+                    <div className="course" key={index}>
+                      <div
+                        className={`horizontal-bubble h-bubble${index}`}
+                      ></div>
+                      <div className={`horizontal-line h-line${index}`}></div>
+                      <div className="card" style={{ width: "18rem" }}>
+                        <div className="card-body">
+                          <h5 className="card-title">{edu.course}</h5>
+                          <p className="card-text">{edu.subject}</p>
+                          <p className="card-text">{edu.year}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </div>

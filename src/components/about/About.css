@@ -7,7 +7,7 @@
     align-items: center;
     margin: 0 auto;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: black;
 
 
 }
@@ -17,7 +17,8 @@
     text-align: center;
     letter-spacing: 10px;
     margin-bottom: 30px;
-    color: green;
+    color: rgb(14, 139, 10);
+    font-weight: bold;
 }
 
 
@@ -25,6 +26,7 @@
 
 .greet {
     text-align: center;
+    color: white;
  
     margin-top: 10px;
     font-size: 1.5em;
@@ -54,6 +56,7 @@
 
 .introduction p {
     opacity: 0.8;;
+    color: silver;
 }
 
 
