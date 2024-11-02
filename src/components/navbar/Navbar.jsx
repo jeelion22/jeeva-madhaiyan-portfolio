@@ -66,7 +66,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav className="navbar navbar-expand-lg  fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           {`C</>DEv.`}

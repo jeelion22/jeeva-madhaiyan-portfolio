@@ -1,7 +1,12 @@
 .active {
     padding-bottom: 0;
-    border-bottom: 3px solid rgb(14, 139, 10);;
+    border-bottom: 3px solid rgb(14, 139, 10);
+    width: fit-content;
     /* transition: 0.2s; */
     
+}
+
+.navbar {
+    background-color: silver;
 }
 

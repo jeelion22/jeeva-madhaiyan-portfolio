@@ -95,7 +95,7 @@ img, .tech-stack {
 }
 
 .card-body button {
-    color: rgb(14, 139, 10);;
+    color: silver;
     border: none;
     background-color: transparent;
   
@@ -103,7 +103,7 @@ img, .tech-stack {
 }
 
 .card-body button:hover {
-    color: silver;
+    
     border-bottom: 2px solid rgb(14, 139, 10); ;
    
 }
