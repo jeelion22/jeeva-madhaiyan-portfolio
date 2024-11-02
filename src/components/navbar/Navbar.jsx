@@ -68,8 +68,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg  fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          {`C</>DEv.`}
+        <a className="navbar-brand" href="#about">
+          {`Web Developer`}
         </a>
         <button
           className="navbar-toggler"

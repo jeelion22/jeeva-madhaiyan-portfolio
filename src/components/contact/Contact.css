@@ -18,7 +18,7 @@
     
 }
 
-.contact-description p, h4 {
+.contact-description p, h4, .copy-right {
     color: silver;
 }
 
@@ -75,4 +75,11 @@ form {
         cursor: pointer;
     }
 
+   }
+
+   .social .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
    }

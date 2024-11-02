@@ -3,10 +3,6 @@ import "./Projects.css";
 import travelPlannerImg from "./travel-planner.png";
 import reunitemeImg from "./reuniteme.png";
 
-const TechStack = ({ tech }) => {
-  return <div className="technology">{tech}</div>;
-};
-
 const Project = ({ project }) => {
   return (
     <div class="card h-100" style={{}}>
@@ -16,18 +12,21 @@ const Project = ({ project }) => {
           class="card-img-top"
           alt={project.name || "Project image"}
         />
-        <div className="tech-stack flex-wrap ">
-          {project.technologies.map((tech, index) => (
-            <TechStack tech={tech} key={index} />
-          ))}
-        </div>
       </div>
 
       <div class="card-body">
         <h5 class="card-title">{project.name}</h5>
         <p class="card-text">{project.purpose}</p>
 
-        <button>VIEW PROJECT</button>
+        <div className="links">
+          <div className="source">
+            <a href=""></a>
+            <a href=""></a>
+          </div>
+          <div className="live">
+            <a href=""></a>
+          </div>
+        </div>
       </div>
     </div>
   );

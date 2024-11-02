@@ -59,8 +59,30 @@
     color: silver;
 }
 
+#Linkedin-Icon--Streamline-Svg-Logos {
+    background-color: white;
+  
+   
+}
 
+#about .social-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 
+.message a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 15px auto;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 

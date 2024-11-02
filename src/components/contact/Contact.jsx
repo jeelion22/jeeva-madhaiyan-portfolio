@@ -1,5 +1,12 @@
 import React from "react";
 import "./Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import {
+  faGitAlt,
+  faGithub,
+  faGithubAlt,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   return (
@@ -62,6 +69,29 @@ const Contact = () => {
                     ></textarea>
                     <button>Submit</button>
                   </form>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col social col-md-12">
+                <div className="social-links mt- pt-2">
+                  <a
+                    href="https://www.linkedin.com/in/jeeva-madhaiyan-090860107/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      size="2x"
+                      className="me-2 "
+                    />
+                  </a>
+                  <a href="https://github.com/jeelion22" target="_blank">
+                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                  </a>
+                </div>
+                <div className="copy-right text-center pb-4">
+                  <p>Handcrafted by Jeeva Madhaiyan</p>
                 </div>
               </div>
             </div>
