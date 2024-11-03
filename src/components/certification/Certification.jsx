@@ -5,7 +5,7 @@ import { certifications } from "./certificationsData";
 const Certification = () => {
   return (
     <section className="section" id="certifications">
-      <div className="container">
+      <div className="container container-xxl">
         <div className="row">
           <div className="col p-2">
             <h2 className="certification-title">Certifications</h2>

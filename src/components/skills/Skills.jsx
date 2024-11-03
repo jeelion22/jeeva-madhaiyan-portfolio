@@ -10,7 +10,7 @@ import vscode from "./icons/Visual-Studio-Code--Streamline-Svg-Logos.png";
 const Skills = () => {
   return (
     <section className="section" id="skills">
-      <div className="container">
+      <div className="container container-xxl">
         <div className="row">
           <h2 className="skills-title">Skills</h2>
           <div className="col-lg-6 col-md-12 col-sm-12 skill-description">

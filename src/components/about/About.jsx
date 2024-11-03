@@ -8,7 +8,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const About = () => {
   return (
     <section className="section" id="about">
-      <div className="container">
+      <div className="container container-xxl">
         <div className="row ">
           <div className="col-lg-6 col-md-12 profile">
             <div className="introduction">

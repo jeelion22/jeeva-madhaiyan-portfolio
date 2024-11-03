@@ -22,7 +22,7 @@ const education = [
 const Education = () => {
   return (
     <section className="section" id="education">
-      <div className="container">
+      <div className="container container-xxl">
         <div className="row">
           <div className="col">
             <div className="edu-container">

@@ -69,7 +69,7 @@ const projectsInfo = [
 const Projects = () => {
   return (
     <section className="section" id="projects">
-      <div className="container">
+      <div className="container container-xxl">
         <div className="row ">
           <div className="col-md-12 showcase-description">
             <h2 className="project-header">Showcases.</h2>

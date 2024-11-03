@@ -52,7 +52,7 @@
  
 } */
 
-form {
+Form {
     
     display: flex;
     flex-direction: column;
@@ -69,6 +69,7 @@ form {
 
     button  {
         border: none;
+        color: silver;
         background-color: rgb(14, 139, 10);
         padding: 20px;
         font-weight: 500;
@@ -82,4 +83,15 @@ form {
     justify-content: center;
     align-items: center;
     margin: 1rem auto;
+   }
+
+   .container-xxl {
+    height: 100vh;
+ 
+   }
+
+   .row.footer {
+    position: relative;
+    top: 25vh;
+
    }
