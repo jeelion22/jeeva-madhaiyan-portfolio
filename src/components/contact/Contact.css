@@ -92,17 +92,19 @@ Form {
    } */
 
    .row.footer {
-    position: relative;
-    top: 25vh;
+    margin-top: 20%;
+    
+    
+    
     
 
    }
 
    .copy-right {
-    color: rgb(0, 0, 0, 0.7);
+    color: silver;
     font-weight: bold;
 }
 
-html {
+/* html {
     background-color: rgb(192, 192, 192);
-}
+} */
