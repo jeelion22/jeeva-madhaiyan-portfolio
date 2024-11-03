@@ -54,6 +54,7 @@ img, .tech-stack {
 
 
 
+
 .tech-stack:hover {
     opacity: 1;
     transition: 1s;
@@ -115,3 +116,19 @@ h2 {
 
 
 
+@media (max-width: 768px){
+    .project-container {
+        display:block;
+        justify-content: center;
+        
+
+      
+    }
+
+    .project-container .card {
+        min-width:fit-content;
+        padding: 5%;
+    }
+
+
+}
