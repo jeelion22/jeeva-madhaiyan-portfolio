@@ -3,12 +3,14 @@
 
 .section {
 
-  min-height: fit-content;
+  max-height:max-content;
   min-width: none;
   text-wrap: wrap;
  
   
 }
+
+
 
 
 

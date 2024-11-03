@@ -154,7 +154,7 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="copy-right text-center pb-4">
-                  <p>Handcrafted by Jeeva Madhaiyan</p>
+                  <p>Crafted by Jeeva Madhaiyan</p>
                 </div>
               </div>
             </div>

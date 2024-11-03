@@ -76,6 +76,7 @@ Form {
         cursor: pointer;
     }
 
+   
    }
 
    .social .social-links {
@@ -85,13 +86,18 @@ Form {
     margin: 1rem auto;
    }
 
-   .container-xxl {
+   /* .container-xxl {
     height: 100vh;
  
-   }
+   } */
 
    .row.footer {
     position: relative;
     top: 25vh;
 
    }
+
+   .copy-right {
+    color: rgb(30, 86, 190);
+    font-weight: bold;
+}
