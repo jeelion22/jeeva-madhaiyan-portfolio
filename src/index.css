@@ -3,11 +3,23 @@
 
 .section {
 
-  max-height:max-content;
-  min-width: none;
+  height: 100vh;
+  
+  width: none;
   text-wrap: wrap;
  
   
+}
+
+@media (max-width: 768px) {
+  .section {
+    height: auto;
+    min-width: fit-content;
+  }
+
+   .certification-container {
+    justify-content: center;
+   }
 }
 
 
