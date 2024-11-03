@@ -99,10 +99,10 @@ Form {
    }
 
    .copy-right {
-    color: rgb(30, 86, 190);
+    color: rgb(0, 0, 0, 0.7);
     font-weight: bold;
 }
 
 html {
-    background-color: silver;
+    background-color: rgb(192, 192, 192);
 }
