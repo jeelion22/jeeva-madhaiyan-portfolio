@@ -94,10 +94,15 @@ Form {
    .row.footer {
     position: relative;
     top: 25vh;
+    
 
    }
 
    .copy-right {
     color: rgb(30, 86, 190);
     font-weight: bold;
+}
+
+html {
+    background-color: silver;
 }
