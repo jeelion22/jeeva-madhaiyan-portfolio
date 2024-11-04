@@ -13,20 +13,22 @@ const Certification = () => {
               {certifications.map((certication, index) => (
                 <div className="col-auto card-group col-md-3 " key={index}>
                   <div
-                    class="card certification h-100"
+                    className="card certification h-100"
                     style={{ width: "18rem" }}
                   >
-                    <div class="card-body">
-                      <h5 class="card-title">{certication.course}</h5>
-                      <h6 class="card-subtitle mb-2 ">{certication.company}</h6>
-                      <p class="card-text">
+                    <div className="card-body">
+                      <h5 className="card-title">{certication.course}</h5>
+                      <h6 className="card-subtitle mb-2 ">
+                        {certication.company}
+                      </h6>
+                      <p className="card-text">
                         <span>{certication.duration.start}</span> --
                         <span> {certication.duration.end}</span>
                       </p>
                       <a
                         href={certication.link}
                         target="_blank"
-                        class="card-link"
+                        className="card-link"
                       >
                         view certication
                       </a>
