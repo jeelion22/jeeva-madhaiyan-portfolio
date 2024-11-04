@@ -68,7 +68,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg  fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#about">
+        <a className="navbar-brand" href="">
           {`Web Developer`}
         </a>
         <button
@@ -91,7 +91,7 @@ const Navbar = () => {
                 onClick={() => scrollToSection(navItem)}
               >
                 <Link
-                  to={"/"}
+                  to={`#${navItem}`}
                   className={`nav-link ${
                     activeLink === navItem ? "active" : ""
                   }`}
