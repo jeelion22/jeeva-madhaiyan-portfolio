@@ -4,6 +4,10 @@ import ReactLOgo from "../../assets/react.svg";
 import ProfilePicture from "./jeeva_madhaiyan.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { downloadResume } from "./download_resume";
+
+const RESUME_LINK =
+  "https://drive.google.com/file/d/1lORwueOC8B8rFyJsfCCLTMN8Mx-Dd4p9/view?usp=sharing";
 
 const About = () => {
   return (
@@ -93,7 +97,13 @@ const About = () => {
             </div> */}
               <div className="resume-container">
                 <div className="resume-header">Resume</div>
-                <button className="resume-download-btn">Download</button>
+
+                <button
+                  className="resume-download-btn"
+                  onClick={() => downloadResume(RESUME_LINK)}
+                >
+                  Download
+                </button>
               </div>
             </div>
           </div>
