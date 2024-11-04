@@ -6,6 +6,10 @@ import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { Field, Form, Formik } from "formik";
 
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_iD = import.meta.env.VITE_EMAILjs_TEMPLATE_iD;
+const TEMPLATE_PARAMS = import.meta.env.VITE_EMAILjs_TEMPLATE_PARAMS;
+
 const Contact = () => {
   const [isSubmit, setIsSubmit] = useState(false);
   const [status, setStatus] = useState(null);
@@ -88,11 +92,11 @@ const Contact = () => {
                       setIsSubmit(true);
                       try {
                         await emailjs.send(
-                          "service_i6ppkpu",
-                          "template_wxvqvog",
+                          SERVICE_ID,
+                          TEMPLATE_iD,
                           values,
 
-                          "NPzLFMQrarOp1DxQJ"
+                          TEMPLATE_PARAMS
                         );
                         alert("Message sent successfully!");
                         resetForm();
