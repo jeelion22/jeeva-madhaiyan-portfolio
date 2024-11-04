@@ -37,6 +37,8 @@ export const downloadResume = async (resumeUrl) => {
 
     link.remove();
 
+    document.body.appendChild(link);
+
     // window.URL.revokeObjectURL(url);
   } catch (error) {
     alert("Download failed!");
