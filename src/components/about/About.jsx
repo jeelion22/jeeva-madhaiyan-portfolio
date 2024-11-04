@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { downloadResume } from "./download_resume";
 
-const RESUME_LINK =
-  "https://drive.google.com/file/d/1lORwueOC8B8rFyJsfCCLTMN8Mx-Dd4p9/view?usp=sharing";
+const RESUME_LINK = import.meta.env.VITE_RESUME_LINK;
 
 const About = () => {
   return (
@@ -35,7 +34,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-12 col-lg-6">
+          <div className="col-md-12 col-lg-6 profile-section">
             <div className=" profile-picture text-center">
               <img
                 src={ProfilePicture}
