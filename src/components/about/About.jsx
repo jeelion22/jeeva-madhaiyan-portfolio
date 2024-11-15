@@ -8,6 +8,11 @@ import { downloadResume } from "./download_resume";
 
 const RESUME_LINK = import.meta.env.VITE_RESUME_LINK;
 
+const handleResume = () => {
+  // open the link in a new tab
+  window.open(RESUME_LINK, "_blank", "noopener, noreferrer");
+};
+
 const About = () => {
   return (
     <section className="section" id="about">
@@ -97,10 +102,7 @@ const About = () => {
               <div className="resume-container">
                 <div className="resume-header">Resume</div>
 
-                <button
-                  className="resume-download-btn"
-                  onClick={() => downloadResume(RESUME_LINK)}
-                >
+                <button className="resume-download-btn" onClick={handleResume}>
                   Download
                 </button>
               </div>
