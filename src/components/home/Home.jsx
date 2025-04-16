@@ -5,11 +5,13 @@ import Skills from "../skills/Skills";
 import Certification from "../certification/Certification";
 import Education from "../education/Education";
 import Contact from "../contact/Contact";
+import Experience from "../experience/Experience";
 
 const Home = () => {
   return (
     <div className="home">
       <About />
+      <Experience />
       <Projects />
       <Skills />
       <Certification />

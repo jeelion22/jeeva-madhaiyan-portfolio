@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const navItems = [
   "about",
+  "experience",
   "projects",
   "skills",
   "certifications",
