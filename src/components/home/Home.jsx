@@ -54,6 +54,16 @@ const Home = () => {
     updateAndFetch();
   }, []);
 
+  useEffect(() => {
+    const intervalID = setInterval(() => {
+      fetchTotalVisits();
+      fetchVisitorsCount();
+    }, 5000);
+
+    // Cleanup function to clear the interval on component unmount
+    return () => clearInterval(intervalID);
+  }, []);
+
   return (
     <div className="home">
       <About />
