@@ -32,39 +32,22 @@ export default function ExperienceCard() {
             p: 3,
           }}
         >
-          <Box
+          <Typography
+            gutterBottom
             sx={{
               color: "text.secondary",
-              fontSize: 14,
-              backgroundImage: `url(${innotrat_products})`,
-              backgroundSize: "cover", // or "100% 100%" for full stretch
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              width: "100%",
-              height: "100px",
-              display: "flex",
-              alignItems: "center",
-              p: 4,
-              mb: 2,
             }}
           >
-            <Typography
-              gutterBottom
-              sx={{
-                color: "text.secondary",
-              }}
+            <Link
+              href="https://innotrat.com/"
+              target="_blank"
+              rel="noopener"
+              underline="hover"
+              sx={{ fontWeight: 500 }} // styling link directly
             >
-              <Link
-                href="https://innotrat.com/"
-                target="_blank"
-                rel="noopener"
-                underline="hover"
-                sx={{ fontWeight: 500 }} // styling link directly
-              >
-                Innotrat Labs India Pvt. Ltd.
-              </Link>
-            </Typography>
-          </Box>
+              Innotrat Labs India Pvt. Ltd.
+            </Link>
+          </Typography>
 
           <Typography variant="h5" component="div" color="black">
             Fullstack Developer Intern (MERN)
