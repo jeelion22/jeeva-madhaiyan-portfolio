@@ -19,6 +19,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
+    "axios": "^1.8.4",
     "bootstrap": "^5.3.3",
     "formik": "^2.4.6",
     "moment": "^2.30.1",

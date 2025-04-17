@@ -5,12 +5,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { Field, Form, Formik } from "formik";
+import { Badge, Box, Stack, Typography } from "@mui/material";
+import GroupsIcon from "@mui/icons-material/Groups";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const TEMPLATE_iD = import.meta.env.VITE_EMAILjs_TEMPLATE_iD;
 const TEMPLATE_PARAMS = import.meta.env.VITE_EMAILjs_TEMPLATE_PARAMS;
 
-const Contact = () => {
+const Contact = ({ visitorsCount, totalVisits }) => {
   const [isSubmit, setIsSubmit] = useState(false);
   const [status, setStatus] = useState(null);
 
@@ -141,6 +144,23 @@ const Contact = () => {
             </div>
 
             <div className="row footer">
+              <Box sx={{ display: "flex", justifyContent: "center" }}>
+                <Stack direction={"row"} spacing={4}>
+                  <Box sx={{ textAlign: "center" }}>
+                    <Badge badgeContent={visitorsCount} color="primary">
+                      <GroupsIcon color="primary" />
+                    </Badge>
+                    <Typography color="rgb(14, 139, 10)">Visitors</Typography>
+                  </Box>
+
+                  <Box sx={{ textAlign: "center" }}>
+                    <Badge badgeContent={totalVisits} color="primary">
+                      <VisibilityIcon color="primary" />
+                    </Badge>
+                    <Typography color="rgb(14, 139, 10)">Views</Typography>
+                  </Box>
+                </Stack>
+              </Box>
               <div className="col social col-md-12">
                 <div className="social-links mt- pt-2">
                   <a
