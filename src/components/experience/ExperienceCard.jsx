@@ -26,31 +26,46 @@ export default function ExperienceCard() {
         <CardContent
           className="card-content"
           sx={{
-            backgroundImage: isMobile
-              ? `url(${white_logo})`
-              : `url(${innotrat_products})`,
-            backgroundSize: isMobile ? "250px" : "contain",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
             backgroundColor: "silver", // or remove this line
             minHeight: "300px",
 
             p: 3,
           }}
         >
-          <Typography
-            gutterBottom
-            sx={{ color: "text.secondary", fontSize: 14 }}
+          <Box
+            sx={{
+              color: "text.secondary",
+              fontSize: 14,
+              backgroundImage: `url(${innotrat_products})`,
+              backgroundSize: "cover", // or "100% 100%" for full stretch
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              width: "100%",
+              height: "100px",
+              display: "flex",
+              alignItems: "center",
+              p: 4,
+              mb: 2,
+            }}
           >
-            <Link
-              href="https://innotrat.com/"
-              target="_blank"
-              rel="noopener"
-              underline="hover"
+            <Typography
+              gutterBottom
+              sx={{
+                color: "text.secondary",
+              }}
             >
-              Innotrat Labs India Pvt. Ltd.
-            </Link>
-          </Typography>
+              <Link
+                href="https://innotrat.com/"
+                target="_blank"
+                rel="noopener"
+                underline="hover"
+                sx={{ fontWeight: 500 }} // styling link directly
+              >
+                Innotrat Labs India Pvt. Ltd.
+              </Link>
+            </Typography>
+          </Box>
+
           <Typography variant="h5" component="div" color="black">
             Fullstack Developer Intern (MERN)
           </Typography>
