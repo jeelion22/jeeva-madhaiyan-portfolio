@@ -11,23 +11,30 @@ import {
   ListItemIcon,
   ListItemText,
   Link,
+  useMediaQuery,
 } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import moment from "moment";
 import innotrat_products from "../../assets/IL_LinkedIn Banner.png";
-
+import white_logo from "../../assets/White-Logo-1.1.png";
 export default function ExperienceCard() {
+  const isMobile = useMediaQuery("(max-width:414px)");
+
   return (
     <Box sx={{ minWidth: 275 }}>
       <Card variant="outlined">
         <CardContent
+          className="card-content"
           sx={{
-            backgroundImage: `url(${innotrat_products})`,
-            backgroundSize: "contain",
+            backgroundImage: isMobile
+              ? `url(${white_logo})`
+              : `url(${innotrat_products})`,
+            backgroundSize: isMobile ? "250px" : "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundColor: "silver", // or remove this line
             minHeight: "300px",
+
             p: 3,
           }}
         >
