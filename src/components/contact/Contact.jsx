@@ -147,14 +147,18 @@ const Contact = ({ visitorsCount, totalVisits }) => {
               <Box sx={{ display: "flex", justifyContent: "center" }}>
                 <Stack direction={"row"} spacing={4}>
                   <Box sx={{ textAlign: "center" }}>
-                    <Badge badgeContent={visitorsCount} color="primary">
+                    <Badge
+                      badgeContent={visitorsCount}
+                      max={999}
+                      color="primary"
+                    >
                       <GroupsIcon color="primary" />
                     </Badge>
                     <Typography color="rgb(14, 139, 10)">Visitors</Typography>
                   </Box>
 
                   <Box sx={{ textAlign: "center" }}>
-                    <Badge badgeContent={totalVisits} color="primary">
+                    <Badge badgeContent={totalVisits} max={999} color="primary">
                       <VisibilityIcon color="primary" />
                     </Badge>
                     <Typography color="rgb(14, 139, 10)">Views</Typography>
