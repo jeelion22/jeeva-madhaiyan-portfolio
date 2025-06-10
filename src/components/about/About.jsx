@@ -103,7 +103,7 @@ const About = () => {
                 <div className="resume-header">Resume</div>
                 {/* handle resume view */}
                 <button className="resume-download-btn" onClick={handleResume}>
-                  Download
+                  View
                 </button>
               </div>
             </div>
